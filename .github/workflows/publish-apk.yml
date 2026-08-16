@@ -1,0 +1,39 @@
+name: Publish KANA POS APK
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "apk-parts/v1.15.0/**"
+      - ".github/workflows/publish-apk.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout release parts
+        uses: actions/checkout@v4
+
+      - name: Reassemble and verify APK
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p build
+          cat apk-parts/v1.15.0/*.b64 > build/KANA-POS-v1.15.0-debug.apk.b64
+          base64 --decode build/KANA-POS-v1.15.0-debug.apk.b64 > build/KANA-POS-v1.15.0-debug.apk
+          echo "60f56660ca3f3a1f1c598ee44358743dc5bb246dd7e7865602e625615ccd63d5  build/KANA-POS-v1.15.0-debug.apk" | sha256sum --check
+
+      - name: Create or update GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if gh release view v1.15.0 --repo "${{ github.repository }}" >/dev/null 2>&1; then
+            gh release upload v1.15.0 build/KANA-POS-v1.15.0-debug.apk --repo "${{ github.repository }}" --clobber
+          else
+            gh release create v1.15.0 build/KANA-POS-v1.15.0-debug.apk               --repo "${{ github.repository }}"               --title "KANA POS v1.15.0"               --notes "Versi uji update KANA POS. APK ditandatangani dengan keystore debug yang sama dengan v1.14.0."
+          fi
