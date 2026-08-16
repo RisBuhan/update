@@ -24,7 +24,7 @@
       "version": "1.14.0",
       "versionCode": 14,
       "apkUrl": "https://github.com/RisBuhan/update/releases/download/v1.14.0/KANA-POS-v1.14.0.apk",
-      "sha256": "84d283d2951d099f052cff4d4a7c3103307D918BF18CEA98AC0AE2A07B8AA19D".toLowerCase(),
+      "sha256": "84d283d2951d099f052cff4d4a7c3103307d918bf18cea98ac0ae2a07b8aa19d",
       "releaseDate": "2026-08-16",
       "releaseNotes": [
         "Versi awal mekanisme Update KANA POS."
