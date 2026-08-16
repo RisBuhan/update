@@ -1,19 +1,30 @@
 {
-  "latestVersion": "1.14.0",
-  "versionCode": 14,
-  "apkUrl": "https://github.com/RisBuhan/update/releases/download/v1.14.0/KANA-POS-v1.14.0.apk",
-  "sha256": "84d283d2951d099f052cff4d4a7c3103307d918bf18cea98ac0ae2a07b8aa19d",
+  "latestVersion": "1.15.0",
+  "versionCode": 15,
+  "apkUrl": "https://github.com/RisBuhan/update/releases/download/v1.15.0/KANA-POS-v1.15.0-debug.apk",
+  "sha256": "60f56660ca3f3a1f1c598ee44358743dc5bb246dd7e7865602e625615ccd63d5",
   "releaseDate": "2026-08-16",
   "releaseNotes": [
-    "Versi awal mekanisme Update KANA POS.",
-    "Pemeriksaan versi dan riwayat update tersedia di Pengaturan Sistem > Update."
+    "Versi uji update KANA POS melalui GitHub Release.",
+    "Metadata versi Android diselaraskan ke versionCode 15.",
+    "APK ditandatangani dengan keystore debug yang sama dengan v1.14.0 untuk pengujian update."
   ],
   "history": [
+    {
+      "version": "1.15.0",
+      "versionCode": 15,
+      "apkUrl": "https://github.com/RisBuhan/update/releases/download/v1.15.0/KANA-POS-v1.15.0-debug.apk",
+      "sha256": "60f56660ca3f3a1f1c598ee44358743dc5bb246dd7e7865602e625615ccd63d5",
+      "releaseDate": "2026-08-16",
+      "releaseNotes": [
+        "Versi uji update KANA POS melalui GitHub Release."
+      ]
+    },
     {
       "version": "1.14.0",
       "versionCode": 14,
       "apkUrl": "https://github.com/RisBuhan/update/releases/download/v1.14.0/KANA-POS-v1.14.0.apk",
-      "sha256": "84d283d2951d099f052cff4d4a7c3103307d918bf18cea98ac0ae2a07b8aa19d",
+      "sha256": "84d283d2951d099f052cff4d4a7c3103307D918BF18CEA98AC0AE2A07B8AA19D".toLowerCase(),
       "releaseDate": "2026-08-16",
       "releaseNotes": [
         "Versi awal mekanisme Update KANA POS."
