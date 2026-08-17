@@ -1,13 +1,23 @@
 {
-    "latestVersion":  "1.18.1",
-    "versionCode":  19,
-    "apkUrl":  "https://github.com/RisBuhan/update/releases/download/v1.18.1/KANA-POS-v1.18.1-debug.apk",
-    "sha256":  "d6f8ac9516a4d068b00ba085a648c7025834880719c565a357c45ca21e4bfa0a",
+    "latestVersion":  "1.19.1",
+    "versionCode":  20,
+    "apkUrl":  "https://github.com/RisBuhan/update/releases/download/v1.19.1/KANA-POS-v1.19.1-debug.apk",
+    "sha256":  "70286af47b600ec656f3608e37b902ea883022b8b26532a8e220423e63b97e7b",
     "releaseDate":  "2026-08-17",
     "releaseNotes":  [
-                         "Penambahan pengaturan ukuran layar 70% sampai 130% pada Tampilan Awal, reset 100%, dan penerapan skala tampilan otomatis di APK."
+                         "Download update APK berjalan di background dengan notifikasi, verifikasi SHA-256, dan tombol untuk membuka installer Android setelah download selesai."
                      ],
     "history":  [
+                    {
+                        "version":  "1.19.1",
+                        "versionCode":  20,
+                        "apkUrl":  "https://github.com/RisBuhan/update/releases/download/v1.19.1/KANA-POS-v1.19.1-debug.apk",
+                        "sha256":  "70286af47b600ec656f3608e37b902ea883022b8b26532a8e220423e63b97e7b",
+                        "releaseDate":  "2026-08-17",
+                        "releaseNotes":  [
+                                             "Download update APK berjalan di background dengan notifikasi, verifikasi SHA-256, dan tombol untuk membuka installer Android setelah download selesai."
+                                         ]
+                    },
                     {
                         "version":  "1.18.1",
                         "versionCode":  19,
