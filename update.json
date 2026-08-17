@@ -1,13 +1,23 @@
 {
-    "latestVersion":  "1.15.1",
-    "versionCode":  16,
-    "apkUrl":  "https://github.com/RisBuhan/update/releases/download/v1.15.1/KANA-POS-v1.15.1-debug.apk",
-    "sha256":  "325fab005aff716400bdda9932dd603d341121ad463af3a7930fa343fde8c7f7",
+    "latestVersion":  "1.16.1",
+    "versionCode":  17,
+    "apkUrl":  "https://github.com/RisBuhan/update/releases/download/v1.16.1/KANA-POS-v1.16.1-debug.apk",
+    "sha256":  "d852f7e3e18650bba2c3707e6967d492a85c0f86c1d4e7552256745a36d50231",
     "releaseDate":  "2026-08-17",
     "releaseNotes":  [
                          "Perbaikan scroll daftar produk pada mode portrait APK dan penyempurnaan proses build/update."
                      ],
     "history":  [
+                    {
+                        "version":  "1.16.1",
+                        "versionCode":  17,
+                        "apkUrl":  "https://github.com/RisBuhan/update/releases/download/v1.16.1/KANA-POS-v1.16.1-debug.apk",
+                        "sha256":  "d852f7e3e18650bba2c3707e6967d492a85c0f86c1d4e7552256745a36d50231",
+                        "releaseDate":  "2026-08-17",
+                        "releaseNotes":  [
+                                             "Perbaikan scroll daftar produk pada mode portrait APK dan penyempurnaan proses build/update."
+                                         ]
+                    },
                     {
                         "version":  "1.15.1",
                         "versionCode":  16,
