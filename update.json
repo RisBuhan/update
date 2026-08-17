@@ -1,13 +1,23 @@
 {
-    "latestVersion":  "1.19.1",
-    "versionCode":  20,
-    "apkUrl":  "https://github.com/RisBuhan/update/releases/download/v1.19.1/KANA-POS-v1.19.1-debug.apk",
-    "sha256":  "70286af47b600ec656f3608e37b902ea883022b8b26532a8e220423e63b97e7b",
+    "latestVersion":  "1.20.1",
+    "versionCode":  21,
+    "apkUrl":  "https://github.com/RisBuhan/update/releases/download/v1.20.1/KANA-POS-v1.20.1-debug.apk",
+    "sha256":  "6588c74029df7c0755fd503071844335318893b247485e9fbf6d5b3113d07655",
     "releaseDate":  "2026-08-17",
     "releaseNotes":  [
-                         "Download update APK berjalan di background dengan notifikasi, verifikasi SHA-256, dan tombol untuk membuka installer Android setelah download selesai."
+                         "Paket uji untuk memverifikasi pemeriksaan update, download background, notifikasi, verifikasi SHA-256, dan instalasi APK."
                      ],
     "history":  [
+                    {
+                        "version":  "1.20.1",
+                        "versionCode":  21,
+                        "apkUrl":  "https://github.com/RisBuhan/update/releases/download/v1.20.1/KANA-POS-v1.20.1-debug.apk",
+                        "sha256":  "6588c74029df7c0755fd503071844335318893b247485e9fbf6d5b3113d07655",
+                        "releaseDate":  "2026-08-17",
+                        "releaseNotes":  [
+                                             "Paket uji untuk memverifikasi pemeriksaan update, download background, notifikasi, verifikasi SHA-256, dan instalasi APK."
+                                         ]
+                    },
                     {
                         "version":  "1.19.1",
                         "versionCode":  20,
