@@ -1,13 +1,29 @@
 {
-    "latestVersion":  "1.20.1",
-    "versionCode":  21,
-    "apkUrl":  "https://github.com/RisBuhan/update/releases/download/v1.20.1/KANA-POS-v1.20.1-debug.apk",
-    "sha256":  "6588c74029df7c0755fd503071844335318893b247485e9fbf6d5b3113d07655",
-    "releaseDate":  "2026-08-17",
+    "latestVersion":  "1.22.3",
+    "versionCode":  25,
+    "apkUrl":  "https://github.com/RisBuhan/update/releases/download/v1.22.3/KANA-POS-v1.22.3-debug.apk",
+    "sha256":  "dd2f3b2d23cc8850e7de96b3dca5408814e1b7c95f95791914bd0a2b8728b871",
+    "releaseDate":  "2026-08-18",
     "releaseNotes":  [
-                         "Paket uji untuk memverifikasi pemeriksaan update, download background, notifikasi, verifikasi SHA-256, dan instalasi APK."
+                         "Memperbaiki batas maksimum diskon promo agar berlaku per transaksi dan dibagi konsisten ke seluruh produk.",
+                         "Memperbaiki minimum pembelian, perubahan kuantitas, jadwal promo lintas tengah malam, dan validasi pembayaran.",
+                         "Mencegah diskon promo otomatis ditimpa dari Edit Item serta mencegah promo eksklusif digabung dengan diskon manual.",
+                         "Installer Android dibuka otomatis setelah download dan verifikasi checksum berhasil."
                      ],
     "history":  [
+                    {
+                        "version":  "1.22.3",
+                        "versionCode":  25,
+                        "apkUrl":  "https://github.com/RisBuhan/update/releases/download/v1.22.3/KANA-POS-v1.22.3-debug.apk",
+                        "sha256":  "dd2f3b2d23cc8850e7de96b3dca5408814e1b7c95f95791914bd0a2b8728b871",
+                        "releaseDate":  "2026-08-18",
+                        "releaseNotes":  [
+                                             "Memperbaiki batas maksimum diskon promo agar berlaku per transaksi dan dibagi konsisten ke seluruh produk.",
+                                             "Memperbaiki minimum pembelian, perubahan kuantitas, jadwal promo lintas tengah malam, dan validasi pembayaran.",
+                                             "Mencegah diskon promo otomatis ditimpa dari Edit Item serta mencegah promo eksklusif digabung dengan diskon manual.",
+                                             "Installer Android dibuka otomatis setelah download dan verifikasi checksum berhasil."
+                                         ]
+                    },
                     {
                         "version":  "1.20.1",
                         "versionCode":  21,
