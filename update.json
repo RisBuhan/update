@@ -1,15 +1,23 @@
 {
-    "latestVersion":  "1.22.4",
-    "versionCode":  26,
-    "apkUrl":  "https://github.com/RisBuhan/update/releases/download/v1.22.4/KANA-POS-v1.22.4-debug.apk",
-    "sha256":  "68675b37698bded3a5e69a33ff33a02389b7262908acbea3dfddd53c583a0ba9",
-    "releaseDate":  "2026-08-18",
+    "latestVersion":  "1.23.6",
+    "versionCode":  31,
+    "apkUrl":  "https://github.com/RisBuhan/update/releases/download/v1.23.6/KANA-POS-v1.23.6.apk",
+    "sha256":  "e7f1e7a73ec87dfb89ac3ed55e1ed7e26d23f59884654591ca869daeb4168dd1",
+    "releaseDate":  "2026-08-19",
     "releaseNotes":  [
-                         "Memperbaiki React error #185 setelah promo diterapkan dengan mencegah kalkulasi promo memicu render berulang.",
-                         "Memastikan perubahan kuantitas, diskon manual, pelanggan, kode, aturan, dan jadwal promo tetap dihitung ulang dengan benar.",
-                         "Memperbaiki scroll daftar pada Manajemen Produk di APK Android dan mempertahankan tabel desktop tetap responsif."
+                         "Penyempurnaan mekanisme build dan update APK KANA POS."
                      ],
     "history":  [
+                    {
+                        "version":  "1.23.6",
+                        "versionCode":  31,
+                        "apkUrl":  "https://github.com/RisBuhan/update/releases/download/v1.23.6/KANA-POS-v1.23.6.apk",
+                        "sha256":  "e7f1e7a73ec87dfb89ac3ed55e1ed7e26d23f59884654591ca869daeb4168dd1",
+                        "releaseDate":  "2026-08-19",
+                        "releaseNotes":  [
+                                             "Penyempurnaan mekanisme build dan update APK KANA POS."
+                                         ]
+                    },
                     {
                         "version":  "1.22.4",
                         "versionCode":  26,
