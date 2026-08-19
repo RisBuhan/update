@@ -1,13 +1,23 @@
 {
-    "latestVersion":  "1.23.10",
-    "versionCode":  35,
-    "apkUrl":  "https://github.com/RisBuhan/update/releases/download/v1.23.10/KANA-POS-v1.23.10.apk",
-    "sha256":  "758d15aacdae8c211eb1e533ffb641bf8515376ccb91284020f7297d0735a8af",
-    "releaseDate":  "2026-08-19",
+    "latestVersion":  "1.23.11",
+    "versionCode":  36,
+    "apkUrl":  "https://github.com/RisBuhan/update/releases/download/v1.23.11/KANA-POS-v1.23.11.apk",
+    "sha256":  "23eca66920ac86187c26d145343376c75ce551b1fbb47b3090e24a133b718dad",
+    "releaseDate":  "2026-08-20",
     "releaseNotes":  [
                          "Penyempurnaan mekanisme build dan update APK KANA POS."
                      ],
     "history":  [
+                    {
+                        "version":  "1.23.11",
+                        "versionCode":  36,
+                        "apkUrl":  "https://github.com/RisBuhan/update/releases/download/v1.23.11/KANA-POS-v1.23.11.apk",
+                        "sha256":  "23eca66920ac86187c26d145343376c75ce551b1fbb47b3090e24a133b718dad",
+                        "releaseDate":  "2026-08-20",
+                        "releaseNotes":  [
+                                             "Penyempurnaan mekanisme build dan update APK KANA POS."
+                                         ]
+                    },
                     {
                         "version":  "1.23.10",
                         "versionCode":  35,
