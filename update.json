@@ -1,13 +1,23 @@
 {
-    "latestVersion":  "1.23.99",
-    "versionCode":  124,
-    "apkUrl":  "https://github.com/RisBuhan/update/releases/download/v1.23.99/KANA-POS-v1.23.99.apk",
-    "sha256":  "1b5bab6072214e148be049bd3fd7a64f39d68d783c98d62ed5e8283c5fe53196",
-    "releaseDate":  "2026-10-16",
+    "latestVersion":  "1.23.101",
+    "versionCode":  126,
+    "apkUrl":  "https://github.com/RisBuhan/update/releases/download/v1.23.101/KANA-POS-v1.23.101.apk",
+    "sha256":  "3669495f2d413a6b830990993d547ad379c60431088a55927edc51fbf0f54ecc",
+    "releaseDate":  "2026-11-12",
     "releaseNotes":  [
-                         "Lisensi lifetime berbayar tetap aktif offline tanpa batas setelah aktivasi online berhasil."
+                         "Penyempurnaan mekanisme build dan update APK KANA POS."
                      ],
     "history":  [
+                    {
+                        "version":  "1.23.101",
+                        "versionCode":  126,
+                        "apkUrl":  "https://github.com/RisBuhan/update/releases/download/v1.23.101/KANA-POS-v1.23.101.apk",
+                        "sha256":  "3669495f2d413a6b830990993d547ad379c60431088a55927edc51fbf0f54ecc",
+                        "releaseDate":  "2026-11-12",
+                        "releaseNotes":  [
+                                             "Penyempurnaan mekanisme build dan update APK KANA POS."
+                                         ]
+                    },
                     {
                         "version":  "1.23.99",
                         "versionCode":  124,
